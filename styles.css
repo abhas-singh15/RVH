@@ -1,0 +1,24 @@
+.haha {
+        background: linear-gradient(315deg, #ff0000, #ff3a00, #ff7e00, #ffd800, #eeff00);
+        background-size: 1000% 1000%;
+    
+        -webkit-animation: AnimationName 15s ease infinite;
+        -moz-animation: AnimationName 15s ease infinite;
+        animation: AnimationName 15s ease infinite;
+    }
+    
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 9%}
+        50%{background-position:100% 92%}
+        100%{background-position:0% 9%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 9%}
+        50%{background-position:100% 92%}
+        100%{background-position:0% 9%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 9%}
+        50%{background-position:100% 92%}
+        100%{background-position:0% 9%}
+    }
